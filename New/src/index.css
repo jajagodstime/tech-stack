@@ -1,0 +1,459 @@
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form .one {
+  color: green;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+  background-color: blue;
+}
+
+nav .boss {
+  position: relative;
+}
+
+nav .boss img {
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  left: 80px;
+  height: 100px;
+  width: 100px;
+  -webkit-animation-name: examp;
+          animation-name: examp;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+nav .navii {
+  position: absolute;
+  top: 15px;
+  left: 25em;
+  font-size: 2.1em;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  z-index: 1;
+}
+
+nav .navii:hover {
+  color: peru;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+nav ul {
+  top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  list-style: none;
+  margin-top: -78px;
+  margin-left: 5%;
+  text-decoration: none;
+}
+
+nav ul a {
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+
+nav ul a:hover {
+  color: peru;
+  border-bottom: solid 5px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+nav ul a:active {
+  border-bottom: 5px solid green;
+  color: blue;
+}
+
+.homie {
+  padding: 50px;
+  background: url(./components/assets/mainn.jpg);
+  border: none;
+  width: 94em;
+  height: 100vh;
+}
+
+.main:hover {
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.habitat {
+  position: relative;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.habitat .habit {
+  color: white;
+  position: absolute;
+  width: 20px;
+  top: 100px;
+  -webkit-animation-name: exam;
+          animation-name: exam;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+}
+
+.habitat .habit h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.habitat .habit:hover {
+  color: skyblue;
+}
+
+.creative {
+  position: relative;
+}
+
+.creative .mid {
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 5px;
+  top: 280px;
+  position: absolute;
+  color: white;
+  width: 35%;
+  padding: 20px;
+}
+
+.creative .mid h1 {
+  margin-left: 100px;
+}
+
+.creative .mid h3 {
+  margin-left: 50px;
+}
+
+.creative .mid p {
+  margin-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.creative .mid:hover {
+  color: peru;
+  -webkit-animation-name: examp;
+          animation-name: examp;
+}
+
+.blu {
+  position: absolute;
+  width: 50px;
+  top: 150px;
+  height: 50px;
+  left: 800px;
+  -webkit-animation-name: exami;
+          animation-name: exami;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  border-radius: 50%;
+}
+
+.blu:hover {
+  background-color: purple;
+}
+
+.same {
+  width: 600px;
+  height: 100px;
+}
+
+.same .tech_creek {
+  position: relative;
+}
+
+.same .tech_creek .boto {
+  background: url(./components/assets/2.jpg) no-repeat -800px;
+  position: absolute;
+  color: white;
+  width: 108%;
+  right: -750px;
+  padding: 20px;
+  top: 410px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.same .tech_creek .boto p {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.same .tech_creek .boto:hover {
+  color: peru;
+}
+
+.same .last {
+  position: relative;
+}
+
+.same .last .las {
+  position: absolute;
+  color: white;
+  width: 35%;
+  padding: 30px;
+  left: -70px;
+  top: 495px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.same .last .las p {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.same .last .las:hover {
+  color: peru;
+}
+
+@-webkit-keyframes example {
+  from {
+    background: url(./components/assets/mainn.jpg);
+  }
+  to {
+    background: url(./components/assets/onclick.jpg);
+  }
+}
+
+@keyframes example {
+  from {
+    background: url(./components/assets/mainn.jpg);
+  }
+  to {
+    background: url(./components/assets/onclick.jpg);
+  }
+}
+
+@-webkit-keyframes exam {
+  50% {
+    color: blue;
+    left: 10px;
+    top: 10px;
+  }
+  25% {
+    color: peru;
+    left: 10px;
+    top: 300px;
+  }
+  25% {
+    color: skyblue;
+    left: 5px;
+    top: 300px;
+  }
+  100% {
+    color: white;
+    left: 0px;
+    top: 100px;
+  }
+}
+
+@keyframes exam {
+  50% {
+    color: blue;
+    left: 10px;
+    top: 10px;
+  }
+  25% {
+    color: peru;
+    left: 10px;
+    top: 300px;
+  }
+  25% {
+    color: skyblue;
+    left: 5px;
+    top: 300px;
+  }
+  100% {
+    color: white;
+    left: 0px;
+    top: 100px;
+  }
+}
+
+@-webkit-keyframes exami {
+  20% {
+    background: red;
+    left: 850px;
+    top: 45px;
+  }
+  30% {
+    background-color: yellow;
+    left: 900px;
+    top: 45px;
+    border-radius: 0 10;
+  }
+  50% {
+    background-color: blue;
+    left: 700px;
+    top: 45px;
+    border-radius: 20% 10%;
+  }
+  20% {
+    background-color: white;
+    left: 800px;
+    top: 45px;
+  }
+}
+
+@keyframes exami {
+  20% {
+    background: red;
+    left: 850px;
+    top: 45px;
+  }
+  30% {
+    background-color: yellow;
+    left: 900px;
+    top: 45px;
+    border-radius: 0 10;
+  }
+  50% {
+    background-color: blue;
+    left: 700px;
+    top: 45px;
+    border-radius: 20% 10%;
+  }
+  20% {
+    background-color: white;
+    left: 800px;
+    top: 45px;
+  }
+}
+
+@-webkit-keyframes examp {
+  20% {
+    background: red;
+  }
+  30% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  20% {
+    background-color: white;
+  }
+}
+
+@keyframes examp {
+  20% {
+    background: red;
+  }
+  30% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  20% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes come {
+  20% {
+    background: red;
+    left: 850px;
+    top: 45px;
+    width: 5px;
+  }
+  30% {
+    background-color: yellow;
+    left: 900px;
+    top: 45px;
+  }
+  50% {
+    background-color: blue;
+    left: 700px;
+    top: 45px;
+  }
+  20% {
+    background-color: white;
+    left: 800px;
+    top: 45px;
+  }
+}
+
+@keyframes come {
+  20% {
+    background: red;
+    left: 850px;
+    top: 45px;
+    width: 5px;
+  }
+  30% {
+    background-color: yellow;
+    left: 900px;
+    top: 45px;
+  }
+  50% {
+    background-color: blue;
+    left: 700px;
+    top: 45px;
+  }
+  20% {
+    background-color: white;
+    left: 800px;
+    top: 45px;
+  }
+}
+
+.about {
+  background: url(./components/assets/onhover.jpg);
+  height: 100vh;
+}
+
+.members {
+  background: url(./components/assets/onclick.jpg);
+  height: 90vh;
+  padding: 30px;
+}
+
+.notFound {
+  position: relative;
+  background: url(./components/assets//pic.jpg);
+  height: 100vh;
+}
+
+.notFound h3 {
+  position: absolute;
+  background: radial-gradient(yellow, skyblue, blue);
+  font-size: 100px;
+  margin-top: 400px;
+  left: 290px;
+}
+/*# sourceMappingURL=index.css.map */

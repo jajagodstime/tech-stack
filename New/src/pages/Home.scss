@@ -1,0 +1,466 @@
+
+nav{
+    margin-left:-10px;
+    position: relative;
+    // display: flex;
+    // margin-left: 30px;
+    background-color:whitesmoke;
+    opacity: 3000%  ;
+    filter: brightness(100%);
+  top:-50px;
+    width: 100vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;  
+    .boss {
+      position: relative;
+      
+        // h1{
+        //   left: 400px;
+        //   font-size: 40px;
+        //   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        //   color: white;
+        // }
+        .notify{
+          width:20px;
+          margin-left:40px;
+        }
+        img{
+          position: absolute;
+          // transform: rotateX(150deg);
+          // transform: rotateY(150deg);
+          
+          z-index: 1;
+          top: 5px;
+          left: 80px; 
+          height: 80px;
+          width: 80px;
+          animation-name:examp ;
+        animation-duration: 8s;
+      
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        }
+        img:hover{
+          background-position: right bottom, left top;
+          background-repeat: no-repeat, repeat;
+                
+        }
+      }
+  .model{
+    margin-left:80%;
+   display:flex;
+   position:absolute;
+   z-index:1;
+   top:7px;
+  //  .text{
+  //    height:auto;
+  //  }
+    h4{
+      background-color: red;
+     padding:20px;
+      font-size :15px;
+      margin-top :20px;
+      border-radius:10px;
+    }
+    h4:hover{
+      color:white;
+      background-color: skyblue;
+  
+    }
+    .texti{
+      padding:15px;
+      position:absolute;
+      border-radius:10px;
+      z-index:1;
+      height:70px;
+      background-color:green;
+      color:white;
+  
+    }
+    p{
+    }
+    img{
+      color:green;
+      width :30px;
+      margin-top :30px;
+      animation: shake 1s;
+
+      /* When the animation is finished, start again */
+      animation-iteration-count: infinite;
+    
+    }
+    
+  }
+  .navi{
+    position:relative;
+  
+    left: 28%;
+    font-size: 2.1em;
+    color: black;
+    text-decoration: none;
+    z-index: 1;
+  }
+  .nava{
+    position:relative;
+  
+    left: 38%;
+    font-size: 2.1em;
+    color: black;
+    text-decoration: none;
+    z-index: 1;
+  }
+  
+  .navo{
+    position:relative;
+    left: 18%;
+    font-size: 2.1em;
+    color: black;
+    display: flex;
+    text-decoration: none;
+    z-index: 1;
+  
+  }
+  .navii:hover{
+    background-color: blue;
+  border:none;
+    border-radius: 10px;
+  }
+  
+  ul{
+    top: -20px;
+   position: absolute;
+    list-style: none;
+  
+    button{
+      margin-right: -5px;
+    padding: 10px;
+    border-radius: 10px;
+    // margin-left: 50em;
+    color:black;
+    background-color:inherit;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+  
+    border: none;
+    
+  }
+  button:hover{
+    background-color:inherit;
+    color: peru;
+    border-bottom: solid 5px ;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    // border: none;
+  }
+  button:active{
+    border-bottom: 5px solid green;
+    color: blue;
+  }
+  }
+  
+  
+  
+  }
+  nav:hover{
+      background-color:whitesmoke;
+    filter: brightness(100%);
+  }
+  .hmain{
+    overflow:hidden;
+  
+    background-color: whitesmoke;
+    background-size:cover;
+  margin-left:-40px;
+  width: 1032.3;
+  height: 105vh;
+  
+  // max-height:500vh;
+  }
+  .homie{
+    background-size:cover;
+    padding: 50px;
+     border: none;
+     width: 25.3em;
+     height: 90vh;
+  }
+  .main:hover{
+  
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  
+  } 
+  
+  
+  .habitat{
+    position: relative;
+    // box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  
+    .habit{
+      position: absolute;
+      width: 20px;
+      top: 140px;
+      animation-name:exam ;
+      animation-duration: 20s;
+  
+      h1{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      
+    }
+    // .habit:hover{
+    //   color: navy;
+      
+    // }
+  } 
+  
+  
+  // .creative{
+  //   position: relative;
+  //   left: 500px;
+  //   background: url(./components/assets/techkk.jpg) no-repeat;
+  //   height: 200px;
+  //   ascent-override: 20px;
+   
+  //   .mid{
+    //   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    //   border-radius: 5px;
+    //   top:280px;
+    //   position: absolute;
+    //   color: white;
+    //   width: 35%;
+    //   // background-color: gray;
+    //   padding: 20px;
+  
+    //  h1{
+    //    margin-left: 100px;
+    //  }
+    //  h3{
+    //    margin-left: 50px;
+    //  }
+  
+    //   p{
+    //     margin-top: 10px;
+    //     font-family: 'Times New Roman', Times, serif;
+    //   }
+      
+    // }
+  //   .mid:hover{
+  //     color:  peru;
+  //     animation-name: examp;
+   
+  //   }
+  
+  // }
+  
+  .blu{
+    position:absolute;
+   width: 50px;
+   top: 200px;
+   height: 50px;
+   left: 800px;
+   animation-name:exami ;
+   animation-timing-function: linear;
+   animation-play-state: running;
+    animation-duration: 10s;
+    border-radius: 50%;
+  z-index: 1;
+  }
+  // .blu:hover{
+  //   background-color: purple;
+  
+  // }
+  // .center{
+  //   display: flex;
+  
+  //   .centii{
+  //     transform: matrix(1, -0.3, 0, 1, 0, 0);    height: 300px;
+  //     border-image: url(./components/assets/Illustration.png) 30% round;
+  //     width: 100px;
+  //     height: 100px;
+  //     border-radius: 20px;
+  //     // -webkit-box-reflect: right;
+  
+  //   }
+  // }
+  // .same{
+  //   width: 1400px;
+  //   height:600px ;
+  //   margin-top: -100px;
+  //   margin-left: -50px;
+  //   background:url(./components/assets/Illustration.png) no-repeat;
+  //   background-size:cover;
+  //  -webkit-background-origin: padding-box;
+  //   background-repeat: no-repeat;
+  // }
+  
+  .sideimage{
+    content: '';
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    position: absolute;
+    top: 20%;
+    right:1.8%;
+    border-radius:50%;
+  
+  
+    // background: inherit;
+    img{
+  animation-name:movingdiv;
+  animation-duration:18s;
+      position: relative;
+      left: 10%;
+      // opacity:25.5;
+      margin: 20px ;
+      // text-indent: .5em;
+      border-radius:50%;
+      width: 500px;
+      opacity:1;
+      height:500px;
+    } 
+  }
+  .tech_creek{
+    position: relative;
+   
+  animation: topslide;
+  animation-duration: 10s;
+  
+    .boto{
+      position: absolute;
+      color: black;
+      width: 800px;
+      right: 750px;
+      left: 300px;
+      height: 500px;
+      border-top-left-radius: 250px;
+      padding: 0px;
+      top: 140px;
+       
+      h1{
+        color: black;
+        font-weight:bold;
+        margin-left:80px;
+        
+      }
+      p{
+        // font-family: 'Times New Roman', Times, serif;
+        width: 420px;
+        // font-family: 'Times New Roman', Times, serif;
+        height: 300px;
+        font-size: 19px;
+        margin-top: 20px;
+        margin-left: 40px;
+        font-weight:bold;
+      }
+    }
+    @keyframes topslide {
+        0% {
+          top: -700px;
+        }
+        100% {
+          top: 0px;
+        }
+      }
+    // .boto:hover{
+    //   color:  blue;
+    // }
+  }
+  .last{
+    line-height: 1.5rem;
+    animation: leftslide;
+    animation-duration: 5s;
+    position: relative;
+      .las{
+          
+        display: flex;
+        position: absolute;
+        color: whitesmoke;
+      width: 155%;
+      background-color: blue;
+      padding: 30px;
+      border-radius: 10px;
+      left: 15px;
+      top: 527px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  p{
+    line-height: 1.5rem;
+   
+  }
+      img{
+        width:30px;
+        margin-top: -75px;
+        margin-right: 10px;
+      }
+  
+      }
+      .las:hover{
+          
+        color:  peru;
+      }
+  
+  }
+  
+  .geti{
+    background-color: black;
+  }
+  @keyframes movingdiv {
+    0% {
+      opacity: 5500;
+    }
+    100% {
+      opacity: 100;
+    }
+  }
+  
+  
+  
+  // @keyframes example {
+  //   from {background: url(./components/assets/mainn.jpg);}
+  //   to {background:url(./components/assets/onclick.jpg) ;}
+  
+    
+  // }
+  
+  
+  
+  
+  
+  @keyframes exam {
+    50%  {color: blue; left: 10px; top: 200px;}
+    25%  {color: peru; left: 10px; top: 300px}
+    25%  {color: skyblue; left: 5px; top: 300px}
+    100% {color: navy; left: 0px; top:50px}
+  }
+  
+  @keyframes exami {
+    
+  
+    20%   {background:red ; left: 850px; top: 45px}
+    30%  {background-color: yellow; left: 900px; top: 45px; border-radius: 0 10;}
+    50%  {background-color: blue; left: 700px; top: 45px; border-radius: 20% 10%; }
+    20% {background-color: navy; left: 800px; top: 45px}
+  }
+  
+  
+  @keyframes examp {
+    20%   {background:red ; }
+    30%  {background-color: yellow;  }
+    50%  {background-color: blue;  }
+    20% {background-color: navy;  }
+  }
+  
+  @keyframes come {
+    20%   {background:red ; left: 850px; top: 45px; width: 5px; }
+    30%  {background-color: yellow; left: 900px; top: 45px; }
+    50%  {background-color: blue; left: 700px; top: 45px; }
+    20% {background-color: navy; left: 800px; top: 45px; }
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }

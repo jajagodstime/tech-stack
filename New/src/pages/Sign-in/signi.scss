@@ -1,0 +1,54 @@
+@import "./src/components/styles/variable";
+
+.SigninContainer {
+  width: 50%;
+margin-left:60%;
+margin-top:0;
+
+  .input {
+    input {
+      z-index:10;
+      
+
+      display:flex;
+
+      width: 60%;
+      margin-top: 0.5rem;
+      padding: 0.4rem;
+      border: 1px solid $dark-blue-color;
+      border-radius: 4px;
+    }
+    input:focus {
+      border: 1px solid black;
+      outline: none;
+      background-color:peru;
+    }
+  }
+  .check-box {
+    margin-top: 0.5rem;
+    span {
+      margin-left: 18%;
+      a {
+        text-decoration: none;
+        color: $alert-color;
+      }
+    }
+  }
+  .loginButton {
+    button {
+      width: 60%;
+      margin-top: 0.3rem;
+      padding: 0.4rem;
+      background-color: $alert-color;
+      border: none;
+      color: $light-color;
+      outline: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+    }
+    button:hover {
+      background-color: $alert-hover;
+      transition: ease-in-out;
+    }
+  }
+}

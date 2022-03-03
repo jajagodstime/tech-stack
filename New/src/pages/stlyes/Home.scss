@@ -1,0 +1,162 @@
+// .homie{
+//   padding: 50px;
+//    background-color: black;
+//    border: none;
+//    background: url("./src/components/assets/loss.jpg")  ;
+//    width: 94em;
+//    height: 100vh;
+// }
+// .main:hover{
+
+//   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+// } 
+
+
+// .habitat{
+//   position: relative;
+//   .habit{
+//     color: white;
+//     position: absolute;
+//     width: 20px;
+//     top: 100px;
+//     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+//     animation-name:exam ;
+//     animation-duration: 20s;
+
+//     h1{
+//       font-family:Verdana, Geneva, Tahoma, sans-serif ;
+//     }
+    
+//   }
+//   .habit:hover{
+//     color: skyblue;
+    
+//   }
+// } 
+
+
+// .creative{
+//   position: relative;
+  
+//   .mid{
+//     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+//     border-radius: 5px;
+//     top:280px;
+//     position: absolute;
+//     color: white;
+//     width: 35%;
+//     // background-color: gray;
+//     padding: 20px;
+
+//    h1{
+//      margin-left: 100px;
+//    }
+//    h3{
+//      margin-left: 50px;
+//    }
+
+//     p{
+//       margin-top: 10px;
+//       font-family: 'Times New Roman', Times, serif;
+//     }
+    
+//   }
+//   .mid:hover{
+//     color:  peru;
+//     animation-name: examp;
+ 
+//   }
+
+// }
+
+// .blu{
+//   position:absolute;
+//  width: 50px;
+//  top: 150px;
+//  height: 50px;
+//  left: 800px;
+//  animation-name:exami ;
+//  animation-timing-function: linear;
+//  animation-play-state: running;
+//   animation-duration: 10s;
+//   border-radius: 50%;
+
+// }
+// .blu:hover{
+//   background-color: purple;
+
+// }
+// .same{
+//   width: 700px;
+//   background-color: gray;
+// .tech_creek{
+//   position: relative;
+//   .boto{
+//     position: absolute;
+//     color: white;
+//     width: 58%;
+//     right: -750px;
+//     // background-color: gray;
+//     padding: 20px;
+//     top: 410px;
+//     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+     
+//     p{
+//       font-family: 'Times New Roman', Times, serif;
+//     }
+//   }
+//   .boto:hover{
+//     color:  peru;
+//   }
+// }
+// .last{
+//   position: relative;
+//     .las{
+//       position: absolute;
+//       color: white;
+//     width: 35%;
+//     // background-color: gray;
+//     padding: 30px;
+//     left: -70px;
+//     top: 495px;
+//     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+//     p{
+//       font-family: 'Times New Roman', Times, serif;
+//     }
+
+//     }
+//     .las:hover{
+//       color:  peru;
+//     }
+
+// }
+// }
+
+// @keyframes example {
+//   from {background: url(./components/assets/mainn.jpg);}
+//   to {background:url(./components/assets/onclick.jpg) ;}
+
+  
+// }
+
+
+
+
+
+// @keyframes exam {
+//   50%  {color: blue; left: 10px; top: 10px;}
+//   25%  {color: peru; left: 10px; top: 300px}
+//   25%  {color: skyblue; left: 5px; top: 300px}
+//   100% {color: white; left: 0px; top:100px}
+// }
+
+// @keyframes exami {
+  
+
+//   20%   {background:red ; left: 850px; top: 45px}
+//   30%  {background-color: yellow; left: 900px; top: 45px; border-radius: 0 10;}
+//   50%  {background-color: blue; left: 700px; top: 45px; border-radius: 20% 10%; }
+//   20% {background-color: white; left: 800px; top: 45px}
+// }

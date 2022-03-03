@@ -1,0 +1,104 @@
+@import "./pages/stlyes/Form.scss";
+
+*{
+  margin: 0;
+  padding: 0;
+  max-height:500vh;
+  max-width:500vw;
+
+}
+
+
+
+
+// about
+
+
+// api
+.members{
+  // background-color:black;
+  // background: url(./components/assets/assets2/midle.jpeg)  ;
+  // background-size:cover;
+  // // background-position: center;
+  // background-repeat: no-repeat;
+  height: 90vh;
+  padding: 30px;
+}
+
+
+
+
+// not found page
+.notFound{
+  animation-name:found;
+  animation-timing-function: linear;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  position: relative;
+  background: url(./components/assets/4not.jpg) ;
+  height: 100vh;
+
+  h3{
+    position: absolute;
+    background: radial-gradient(yellow,skyblue,blue );
+    // font-size: 100px;
+    animation-name: examii;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    box-shadow: 0 0 0 1em red,
+    0 1em 0 1em red,
+    -2.5em 1.5em 0 .5em red,
+    2.5em 1.5em 0 .5em red,
+    -3em -3em 0 0 red,
+    3em -3em 0 0 red,
+    -2em -2em 0 0 red,
+    2em -2em 0 0 red,
+    -3em -1em 0 0 red,
+    -2em -1em 0 0 red,
+    2em -1em 0 0 red,
+    3em -1em 0 0 red,
+    -4em 0 0 0 red,
+    -3em 0 0 0 red,
+    3em 0 0 0 red,
+    4em 0 0 0 red,
+    -5em 1em 0 0 red,
+    -4em 1em 0 0 red,
+    4em 1em 0 0 red,
+    5em 1em 0 0 red,
+    -5em 2em 0 0 red,
+    5em 2em 0 0 red,
+    -5em 3em 0 0 red,
+    -3em 3em 0 0 red,
+    3em 3em 0 0 red,
+    5em 3em 0 0 red,
+    -2em 4em 0 0 red,
+    -1em 4em 0 0 red,
+    1em 4em 0 0 red,
+    2em 4em 0 0 red;
+    background: red;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+    margin: 50px 0 70px 65px;
+    margin-top: 300px;
+    left: 290px;
+  }
+}
+
+
+// @keyframes examii {
+  
+
+//   20%   {background:red ; left: 150px; right: 45px; border-radius: 50px; width: 300px;}
+//   30%  {color: yellow; left: 200px; top: 45px; border-radius: 0 10;}
+//   50%  {color: blue; left: 100px; right: 45px; border-radius: 20% 10%; }
+//   20% {color: white; left: 200px; top: 45px}
+// }
+
+@import "../src/components/Data_api/Data.scss";
+@import "../src/components/Form/form.scss";
+@import "../src/components/Cards/Cards.scss";
+@import "../src/pages/Sign-in/signi.scss";
+@import "../src/pages/Register/Register.scss";
+@import "../src/pages/Sign-in/edit.scss";
+@import "../src/pages/Home.scss";

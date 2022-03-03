@@ -1,0 +1,10 @@
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form .one {
+  color: green;
+}
+/*# sourceMappingURL=Form.css.map */
